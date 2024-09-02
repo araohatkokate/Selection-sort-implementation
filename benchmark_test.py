@@ -1,7 +1,5 @@
 import timeit
 import random
-import matplotlib
-
 import matplotlib.pyplot as plt
 
 def bubble_sort_algorithm(arr):
