@@ -1,10 +1,10 @@
 import timeit
 import random
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # type: ignore
 import os
 
 def benchmark_sorting_algorithms():
-    input_sizes = [5, 10, 20, 50, 100, 200, 500, 1000, 2000]
+    input_sizes = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 9999]
     bubble_sort_times = []
     insertion_sort_times = []
     selection_sort_times = []
