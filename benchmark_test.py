@@ -1,8 +1,3 @@
-'''
-CPU: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz 
-RAM: 16GB (15.8GB usable)
-OS: Windows 11 64-bit
-All the imports are necessary to do the benchmark. An image of the plot is generated in png format as the output'''
 import timeit
 import random
 import matplotlib.pyplot as plt
